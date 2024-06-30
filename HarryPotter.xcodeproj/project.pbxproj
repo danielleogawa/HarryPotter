@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE29703C2C31997D005DB400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703B2C31997D005DB400 /* AppDelegate.swift */; };
+		EE29703E2C31997D005DB400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703D2C31997D005DB400 /* SceneDelegate.swift */; };
+		EE2970402C31997D005DB400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703F2C31997D005DB400 /* ViewController.swift */; };
+		EE2970432C31997D005DB400 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EE2970422C31997D005DB400 /* Base */; };
+		EE2970452C31997E005DB400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2970442C31997E005DB400 /* Assets.xcassets */; };
+		EE2970482C31997E005DB400 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EE2970472C31997E005DB400 /* Base */; };
+		EE2970532C31997F005DB400 /* HarryPotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2970522C31997F005DB400 /* HarryPotterTests.swift */; };
+		EE29705D2C31997F005DB400 /* HarryPotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29705C2C31997F005DB400 /* HarryPotterUITests.swift */; };
+		EE29705F2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29705E2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE29704F2C31997F005DB400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2970302C31997D005DB400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2970372C31997D005DB400;
+			remoteInfo = HarryPotter;
+		};
+		EE2970592C31997F005DB400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2970302C31997D005DB400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2970372C31997D005DB400;
+			remoteInfo = HarryPotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2970382C31997D005DB400 /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29703B2C31997D005DB400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE29703D2C31997D005DB400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE29703F2C31997D005DB400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE2970422C31997D005DB400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2970442C31997E005DB400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2970472C31997E005DB400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE2970492C31997E005DB400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE29704E2C31997F005DB400 /* HarryPotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2970522C31997F005DB400 /* HarryPotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterTests.swift; sourceTree = "<group>"; };
+		EE2970582C31997F005DB400 /* HarryPotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29705C2C31997F005DB400 /* HarryPotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterUITests.swift; sourceTree = "<group>"; };
+		EE29705E2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2970352C31997D005DB400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29704B2C31997F005DB400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2970552C31997F005DB400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE29702F2C31997D005DB400 = {
+			isa = PBXGroup;
+			children = (
+				EE29703A2C31997D005DB400 /* HarryPotter */,
+				EE2970512C31997F005DB400 /* HarryPotterTests */,
+				EE29705B2C31997F005DB400 /* HarryPotterUITests */,
+				EE2970392C31997D005DB400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2970392C31997D005DB400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2970382C31997D005DB400 /* HarryPotter.app */,
+				EE29704E2C31997F005DB400 /* HarryPotterTests.xctest */,
+				EE2970582C31997F005DB400 /* HarryPotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE29703A2C31997D005DB400 /* HarryPotter */ = {
+			isa = PBXGroup;
+			children = (
+				EE29703B2C31997D005DB400 /* AppDelegate.swift */,
+				EE29703D2C31997D005DB400 /* SceneDelegate.swift */,
+				EE29703F2C31997D005DB400 /* ViewController.swift */,
+				EE2970412C31997D005DB400 /* Main.storyboard */,
+				EE2970442C31997E005DB400 /* Assets.xcassets */,
+				EE2970462C31997E005DB400 /* LaunchScreen.storyboard */,
+				EE2970492C31997E005DB400 /* Info.plist */,
+			);
+			path = HarryPotter;
+			sourceTree = "<group>";
+		};
+		EE2970512C31997F005DB400 /* HarryPotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2970522C31997F005DB400 /* HarryPotterTests.swift */,
+			);
+			path = HarryPotterTests;
+			sourceTree = "<group>";
+		};
+		EE29705B2C31997F005DB400 /* HarryPotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE29705C2C31997F005DB400 /* HarryPotterUITests.swift */,
+				EE29705E2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift */,
+			);
+			path = HarryPotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2970372C31997D005DB400 /* HarryPotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2970622C31997F005DB400 /* Build configuration list for PBXNativeTarget "HarryPotter" */;
+			buildPhases = (
+				EE2970342C31997D005DB400 /* Sources */,
+				EE2970352C31997D005DB400 /* Frameworks */,
+				EE2970362C31997D005DB400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarryPotter;
+			productName = HarryPotter;
+			productReference = EE2970382C31997D005DB400 /* HarryPotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE29704D2C31997F005DB400 /* HarryPotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2970652C31997F005DB400 /* Build configuration list for PBXNativeTarget "HarryPotterTests" */;
+			buildPhases = (
+				EE29704A2C31997F005DB400 /* Sources */,
+				EE29704B2C31997F005DB400 /* Frameworks */,
+				EE29704C2C31997F005DB400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2970502C31997F005DB400 /* PBXTargetDependency */,
+			);
+			name = HarryPotterTests;
+			productName = HarryPotterTests;
+			productReference = EE29704E2C31997F005DB400 /* HarryPotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2970572C31997F005DB400 /* HarryPotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2970682C31997F005DB400 /* Build configuration list for PBXNativeTarget "HarryPotterUITests" */;
+			buildPhases = (
+				EE2970542C31997F005DB400 /* Sources */,
+				EE2970552C31997F005DB400 /* Frameworks */,
+				EE2970562C31997F005DB400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE29705A2C31997F005DB400 /* PBXTargetDependency */,
+			);
+			name = HarryPotterUITests;
+			productName = HarryPotterUITests;
+			productReference = EE2970582C31997F005DB400 /* HarryPotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2970302C31997D005DB400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE2970372C31997D005DB400 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EE29704D2C31997F005DB400 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE2970372C31997D005DB400;
+					};
+					EE2970572C31997F005DB400 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE2970372C31997D005DB400;
+					};
+				};
+			};
+			buildConfigurationList = EE2970332C31997D005DB400 /* Build configuration list for PBXProject "HarryPotter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE29702F2C31997D005DB400;
+			productRefGroup = EE2970392C31997D005DB400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2970372C31997D005DB400 /* HarryPotter */,
+				EE29704D2C31997F005DB400 /* HarryPotterTests */,
+				EE2970572C31997F005DB400 /* HarryPotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2970362C31997D005DB400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2970452C31997E005DB400 /* Assets.xcassets in Resources */,
+				EE2970482C31997E005DB400 /* Base in Resources */,
+				EE2970432C31997D005DB400 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29704C2C31997F005DB400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2970562C31997F005DB400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2970342C31997D005DB400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2970402C31997D005DB400 /* ViewController.swift in Sources */,
+				EE29703C2C31997D005DB400 /* AppDelegate.swift in Sources */,
+				EE29703E2C31997D005DB400 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29704A2C31997F005DB400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2970532C31997F005DB400 /* HarryPotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2970542C31997F005DB400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE29705D2C31997F005DB400 /* HarryPotterUITests.swift in Sources */,
+				EE29705F2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2970502C31997F005DB400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2970372C31997D005DB400 /* HarryPotter */;
+			targetProxy = EE29704F2C31997F005DB400 /* PBXContainerItemProxy */;
+		};
+		EE29705A2C31997F005DB400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2970372C31997D005DB400 /* HarryPotter */;
+			targetProxy = EE2970592C31997F005DB400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2970412C31997D005DB400 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2970422C31997D005DB400 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2970462C31997E005DB400 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2970472C31997E005DB400 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2970602C31997F005DB400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE2970612C31997F005DB400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2970632C31997F005DB400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniellenogawa.HarryPotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2970642C31997F005DB400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniellenogawa.HarryPotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE2970662C31997F005DB400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniellenogawa.HarryPotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarryPotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarryPotter";
+			};
+			name = Debug;
+		};
+		EE2970672C31997F005DB400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniellenogawa.HarryPotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarryPotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarryPotter";
+			};
+			name = Release;
+		};
+		EE2970692C31997F005DB400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniellenogawa.HarryPotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarryPotter;
+			};
+			name = Debug;
+		};
+		EE29706A2C31997F005DB400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniellenogawa.HarryPotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarryPotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2970332C31997D005DB400 /* Build configuration list for PBXProject "HarryPotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2970602C31997F005DB400 /* Debug */,
+				EE2970612C31997F005DB400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2970622C31997F005DB400 /* Build configuration list for PBXNativeTarget "HarryPotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2970632C31997F005DB400 /* Debug */,
+				EE2970642C31997F005DB400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2970652C31997F005DB400 /* Build configuration list for PBXNativeTarget "HarryPotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2970662C31997F005DB400 /* Debug */,
+				EE2970672C31997F005DB400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2970682C31997F005DB400 /* Build configuration list for PBXNativeTarget "HarryPotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2970692C31997F005DB400 /* Debug */,
+				EE29706A2C31997F005DB400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2970302C31997D005DB400 /* Project object */;
+}
