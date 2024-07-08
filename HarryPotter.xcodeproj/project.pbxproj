@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		EE29703C2C31997D005DB400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703B2C31997D005DB400 /* AppDelegate.swift */; };
 		EE29703E2C31997D005DB400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703D2C31997D005DB400 /* SceneDelegate.swift */; };
-		EE2970402C31997D005DB400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703F2C31997D005DB400 /* ViewController.swift */; };
-		EE2970432C31997D005DB400 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EE2970422C31997D005DB400 /* Base */; };
+		EE2970402C31997D005DB400 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703F2C31997D005DB400 /* HomeViewController.swift */; };
 		EE2970452C31997E005DB400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2970442C31997E005DB400 /* Assets.xcassets */; };
 		EE2970482C31997E005DB400 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EE2970472C31997E005DB400 /* Base */; };
 		EE2970532C31997F005DB400 /* HarryPotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2970522C31997F005DB400 /* HarryPotterTests.swift */; };
 		EE29705D2C31997F005DB400 /* HarryPotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29705C2C31997F005DB400 /* HarryPotterUITests.swift */; };
 		EE29705F2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29705E2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift */; };
+		EE29706D2C319AE7005DB400 /* HomeView .swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29706C2C319AE7005DB400 /* HomeView .swift */; };
+		EE29706F2C31A42A005DB400 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29706E2C31A42A005DB400 /* CharacterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,7 @@
 		EE2970382C31997D005DB400 /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE29703B2C31997D005DB400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE29703D2C31997D005DB400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE29703F2C31997D005DB400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EE2970422C31997D005DB400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE29703F2C31997D005DB400 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EE2970442C31997E005DB400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2970472C31997E005DB400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2970492C31997E005DB400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		EE2970582C31997F005DB400 /* HarryPotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE29705C2C31997F005DB400 /* HarryPotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterUITests.swift; sourceTree = "<group>"; };
 		EE29705E2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE29706C2C319AE7005DB400 /* HomeView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView .swift"; sourceTree = "<group>"; };
+		EE29706E2C31A42A005DB400 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,7 @@
 			children = (
 				EE29703B2C31997D005DB400 /* AppDelegate.swift */,
 				EE29703D2C31997D005DB400 /* SceneDelegate.swift */,
-				EE29703F2C31997D005DB400 /* ViewController.swift */,
-				EE2970412C31997D005DB400 /* Main.storyboard */,
+				EE29706B2C319ABE005DB400 /* Home */,
 				EE2970442C31997E005DB400 /* Assets.xcassets */,
 				EE2970462C31997E005DB400 /* LaunchScreen.storyboard */,
 				EE2970492C31997E005DB400 /* Info.plist */,
@@ -125,6 +126,16 @@
 				EE29705E2C31997F005DB400 /* HarryPotterUITestsLaunchTests.swift */,
 			);
 			path = HarryPotterUITests;
+			sourceTree = "<group>";
+		};
+		EE29706B2C319ABE005DB400 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE29703F2C31997D005DB400 /* HomeViewController.swift */,
+				EE29706C2C319AE7005DB400 /* HomeView .swift */,
+				EE29706E2C31A42A005DB400 /* CharacterTableViewCell.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +244,6 @@
 			files = (
 				EE2970452C31997E005DB400 /* Assets.xcassets in Resources */,
 				EE2970482C31997E005DB400 /* Base in Resources */,
-				EE2970432C31997D005DB400 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2970402C31997D005DB400 /* ViewController.swift in Sources */,
+				EE2970402C31997D005DB400 /* HomeViewController.swift in Sources */,
+				EE29706D2C319AE7005DB400 /* HomeView .swift in Sources */,
+				EE29706F2C31A42A005DB400 /* CharacterTableViewCell.swift in Sources */,
 				EE29703C2C31997D005DB400 /* AppDelegate.swift in Sources */,
 				EE29703E2C31997D005DB400 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE2970412C31997D005DB400 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE2970422C31997D005DB400 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE2970462C31997E005DB400 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +451,7 @@
 				INFOPLIST_FILE = HarryPotter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +479,7 @@
 				INFOPLIST_FILE = HarryPotter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
