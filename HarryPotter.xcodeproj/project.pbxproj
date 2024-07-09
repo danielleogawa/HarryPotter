@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE200C372C3CBC1200627864 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE200C362C3CBC1200627864 /* Request.swift */; };
+		EE200C392C3CC18B00627864 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE200C382C3CC18B00627864 /* HomeViewViewModel.swift */; };
+		EE200C3B2C3CC2E000627864 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE200C3A2C3CC2E000627864 /* Characters.swift */; };
 		EE29703C2C31997D005DB400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703B2C31997D005DB400 /* AppDelegate.swift */; };
 		EE29703E2C31997D005DB400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703D2C31997D005DB400 /* SceneDelegate.swift */; };
 		EE2970402C31997D005DB400 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29703F2C31997D005DB400 /* HomeViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE200C362C3CBC1200627864 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		EE200C382C3CC18B00627864 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		EE200C3A2C3CC2E000627864 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		EE2970382C31997D005DB400 /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE29703B2C31997D005DB400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE29703D2C31997D005DB400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +140,9 @@
 				EE29703F2C31997D005DB400 /* HomeViewController.swift */,
 				EE29706C2C319AE7005DB400 /* HomeView .swift */,
 				EE29706E2C31A42A005DB400 /* CharacterTableViewCell.swift */,
+				EE200C362C3CBC1200627864 /* Request.swift */,
+				EE200C382C3CC18B00627864 /* HomeViewViewModel.swift */,
+				EE200C3A2C3CC2E000627864 /* Characters.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -269,10 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2970402C31997D005DB400 /* HomeViewController.swift in Sources */,
+				EE200C392C3CC18B00627864 /* HomeViewViewModel.swift in Sources */,
 				EE29706D2C319AE7005DB400 /* HomeView .swift in Sources */,
+				EE200C3B2C3CC2E000627864 /* Characters.swift in Sources */,
 				EE29706F2C31A42A005DB400 /* CharacterTableViewCell.swift in Sources */,
 				EE29703C2C31997D005DB400 /* AppDelegate.swift in Sources */,
 				EE29703E2C31997D005DB400 /* SceneDelegate.swift in Sources */,
+				EE200C372C3CBC1200627864 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

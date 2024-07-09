@@ -16,6 +16,8 @@ final class CharacterTableViewCell: UITableViewCell {
         element.translatesAutoresizingMaskIntoConstraints = false
         element.layer.cornerRadius = 40
         element.backgroundColor = .lightGray
+        element.layer.masksToBounds = true
+        element.contentMode = .scaleAspectFill
         return element
     }()
     
@@ -28,6 +30,12 @@ final class CharacterTableViewCell: UITableViewCell {
         return element
     }()
     
+    lazy var nameLabel = createLabel(with: "name", fontWeight: .semibold)
+    
+    lazy var houseLabel = createLabel(with: "house")
+    
+    lazy var wandLabel = createLabel(with: "wand")
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUpView()
@@ -37,13 +45,27 @@ final class CharacterTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.nameLabel.text = nil
+        self.houseLabel.text = nil
+        self.wandLabel.text = nil
+        self.thumbnailImage.image = nil
+    }
+    
     private func setUpView() {
         addSubview(thumbnailImage)
         
         addSubview(infoStack)
-        infoStack.addArrangedSubview(createLabel(with: "name", fontWeight: .semibold))
-        infoStack.addArrangedSubview(createLabel(with: "house"))
-        infoStack.addArrangedSubview(createLabel(with: "wand"))
+        if nameLabel.text != nil {
+            infoStack.addArrangedSubview(nameLabel)
+        }
+        if houseLabel.text != nil {
+            infoStack.addArrangedSubview(houseLabel)
+        }
+        if wandLabel.text != nil {
+            infoStack.addArrangedSubview(wandLabel)
+        }
         
         NSLayoutConstraint.activate([
             thumbnailImage.centerYAnchor.constraint(equalTo: centerYAnchor),
@@ -60,7 +82,7 @@ final class CharacterTableViewCell: UITableViewCell {
     }
     
     private func createLabel(with text: String, fontWeight: UIFont.Weight = .regular) -> UILabel {
-        var label = UILabel()
+        let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .gray
         label.textAlignment = .left
@@ -70,4 +92,12 @@ final class CharacterTableViewCell: UITableViewCell {
         return label
     }
     
+    func updateCell(name: String?, house: String?, wand: Wand?, thumbnailImage: String?) {
+        self.nameLabel.text = name
+        self.houseLabel.text = house
+        self.wandLabel.text = wand?.core
+        Task {
+            self.thumbnailImage.image = try await Request.downloadImage(from: thumbnailImage)
+        }
+    }
 }

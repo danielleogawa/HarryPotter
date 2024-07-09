@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     var homeView: HomeView?
+    var viewModel: HomeViewViewModel?
     
     override func loadView() {
         super.loadView()
@@ -19,8 +20,8 @@ class HomeViewController: UIViewController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nil, bundle: nil)
         self.homeView = HomeView()
+        self.viewModel = HomeViewViewModel(delegate: self)
         self.homeView?.setDelegate(self)
-        
     }
     
     required init?(coder: NSCoder) {
@@ -32,17 +33,30 @@ class HomeViewController: UIViewController {
     }
 }
 
+extension HomeViewController: HomeViewViewModelDelegate {
+    func reloadTableView() {
+        DispatchQueue.main.async {
+            self.homeView?.characterTableView.reloadData()
+        }
+    }
+}
+
 extension HomeViewController: UITableViewDelegate {
     
 }
 
 extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return viewModel?.characters.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return CharacterTableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: CharacterTableViewCell.identifier, for: indexPath) as? CharacterTableViewCell,
+              let character = viewModel?.characters[indexPath.row] else {
+            return UITableViewCell()
+        }
+        cell.updateCell(name: character.name, house: character.house, wand: character.wand, thumbnailImage: character.image)
+        return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
